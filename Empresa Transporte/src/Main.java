@@ -34,7 +34,7 @@ public class Main {
 
         System.out.println("Ingrese el número de ejes del vehículo de carga:");
         int nEjes = scanner.nextInt();
-        
+
         Propietario propietario = new Propietario(nombre, cedula, email, telefono, null);
         VehiculoCarga vehiculoCarga = new VehiculoCarga(marca, modelo, placa, color, capacidad, nEjes, propietario);
 
